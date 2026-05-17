@@ -2,6 +2,7 @@
 
 {
     imports = [
+        ./sway.nix
         ./zsh.nix
         ./kitty.nix
         ./obs-studio.nix
