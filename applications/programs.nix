@@ -13,19 +13,19 @@
   programs.steam.enable = true;
 
   # nix-ld for cloudflare package npm dependency
-  programs.nix-ld = {
-    enable = true;
-    libraries = with pkgs; [
-        stdenv.cc.cc
-        zlib
-        fuse3
-        icu
-        nss
-        openssl
-        curl
-        expat
-    ];
-  };
+  # programs.nix-ld = {
+  #   enable = true;
+  #   libraries = with pkgs; [
+  #       stdenv.cc.cc
+  #       zlib
+  #       fuse3
+  #       icu
+  #       nss
+  #       openssl
+  #       curl
+  #       expat
+  #   ];
+  # };
 
   home-manager.users.metal.programs = {
     feh.enable = true;
