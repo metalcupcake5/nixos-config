@@ -50,9 +50,7 @@
             qbittorrent
             # davinci-resolve
             musescore
-            waywall
             libxkbcommon
-            (callPackage ./nbb.nix {})
             audacious
             file
             slurp

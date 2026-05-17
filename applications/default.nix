@@ -14,6 +14,7 @@
         ./hyfetch.nix
         ./satty.nix
         ./chromium.nix
+        ./mcsr
         ./programs.nix
     ];
 }
