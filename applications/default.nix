@@ -10,6 +10,8 @@
         ./regreet.nix
         ./vesktop.nix
         ./vscode.nix
+        ./obsidian.nix
+        ./hyfetch.nix
         ./programs.nix
     ];
 }

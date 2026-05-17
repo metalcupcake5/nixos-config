@@ -11,6 +11,7 @@
 
   programs.git.enable = true;
   programs.steam.enable = true;
+  programs.zoom-us.enable = true;
 
   # nix-ld for cloudflare package npm dependency
   # programs.nix-ld = {
@@ -31,5 +32,6 @@
     feh.enable = true;
     mpv.enable = true;
     htop.enable = true;
+    uv.enable = true;
   };
 }

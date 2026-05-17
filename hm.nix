@@ -26,23 +26,17 @@
             tldr
             killall
             spotify
-            sway-contrib.grimshot
             libnotify
             lm_sensors
             osu-lazer-bin
             gparted
-            obsidian
-            hyfetch
             coreutils
             ffmpeg
-            uv
             #python311
             nodejs
             pnpm
             audacity
-            polkit_gnome
             p7zip
-            zoom-us
             ncurses5
             gcc_multi
             openvpn
