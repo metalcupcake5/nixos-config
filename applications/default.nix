@@ -12,6 +12,8 @@
         ./vscode.nix
         ./obsidian.nix
         ./hyfetch.nix
+        ./satty.nix
+        ./chromium.nix
         ./programs.nix
     ];
 }

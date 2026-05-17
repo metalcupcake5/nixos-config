@@ -41,36 +41,26 @@
             gcc_multi
             openvpn
             proton-vpn
-            qutebrowser
+            qutebrowser # configure?
             signal-desktop
             waybar
-            libqalculate
             typescript
             glfw3-minecraft
             jdk
-            fzf
             qbittorrent
-            discord
             # davinci-resolve
             musescore
-            yt-dlp
             waywall
-            nix-index
             libxkbcommon
             (callPackage ./nbb.nix {})
             audacious
             file
-            satty
             slurp
             wayfreeze
-            jq
             quartoMinimal
-            chromium
             obs-studio-plugins.wlrobs
-            gdb
             kdePackages.kdenlive
             xeyes
-            grim
         ];
       };
     };

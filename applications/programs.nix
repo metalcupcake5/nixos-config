@@ -33,5 +33,10 @@
     mpv.enable = true;
     htop.enable = true;
     uv.enable = true;
+    qalculate.enable = true;
+    discord.enable = true;
+    yt-dlp.enable = true;
+    nix-index.enable = true;
+    jq.enable = true;
   };
 }
