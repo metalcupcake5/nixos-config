@@ -12,7 +12,9 @@
   services.xserver.videoDrivers = ["nvidia"];
   services.blueman.enable = true; # bluetooth
 
-  services.polkit-gnome.enable = true;
+  home-manager.users.metal.services = {
+    polkit-gnome.enable = true;
+  };
 
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
