@@ -23,7 +23,7 @@
 
             enableSplashScreen = true;
             splashColor = "rgb(239, 239, 241)";
-            splashBackground = "rg(18, 18, 20)";
+            splashBackground = "rgb(18, 18, 20)";
             splashPixelated = true;
 
             spellCheckLanguages = [
