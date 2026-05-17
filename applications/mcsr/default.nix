@@ -1,10 +1,11 @@
-{ pkgs, mcsr-nixos, ... }:
+{ pkgs, inputs, ... }:
+
 let
-    mcsrPkgs = mcsr-nixos.packages.${pkgs.stdenv.hostPlatform.system};
+    mcsrPkgs = inputs.mcsr-nixos.packages.${pkgs.stdenv.hostPlatform.system};
 in
 {
     imports = [
-        mcsr-nixos.nixosModules.waywall
+        inputs.mcsr-nixos.nixosModules.waywall
         ./waywall
     ];
 
