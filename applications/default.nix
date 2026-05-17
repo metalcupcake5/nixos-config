@@ -9,6 +9,7 @@
         ./thunar.nix
         ./regreet.nix
         ./vesktop.nix
+        ./vscode.nix
         ./programs.nix
     ];
 }

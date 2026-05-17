@@ -25,7 +25,6 @@
             yazi #configure
             tldr
             killall
-            vscode
             spotify
             sway-contrib.grimshot
             libnotify
