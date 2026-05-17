@@ -10,6 +10,7 @@
             lightness = 0.5;
             color_align.mode = "horizontal";
             backend = "neofetch";
+            pride_month_disable = false;
         };
     };
 }
