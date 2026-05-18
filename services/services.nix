@@ -1,4 +1,9 @@
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
 {
   services.gvfs.enable = true;
@@ -9,7 +14,7 @@
     group = "users";
     dataDir = "/home/metal";
   };
-  services.xserver.videoDrivers = ["nvidia"];
+  services.xserver.videoDrivers = [ "nvidia" ];
   services.blueman.enable = true; # bluetooth
 
   home-manager.users.metal.services = {

@@ -4,8 +4,8 @@
   environment = {
     pathsToLink = [ "/share/zsh" ];
     systemPackages = [
-        # pkgs.eza
-        pkgs.fzf
+      # pkgs.eza
+      pkgs.fzf
     ];
   };
   programs.zsh = {
@@ -28,14 +28,14 @@
         };
 
         oh-my-zsh = {
-            enable = true;
-            plugins = [ "cp" ];
-            theme = "agnoster";
+          enable = true;
+          plugins = [ "cp" ];
+          theme = "agnoster";
         };
 
         shellAliases = {
-            nv = "nvim";
-            ".." = "cd ..";
+          nv = "nvim";
+          ".." = "cd ..";
         };
 
         # shellAliases = {

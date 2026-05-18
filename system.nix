@@ -1,4 +1,9 @@
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
 {
   networking.hostName = "microwave"; # Define your hostname.
@@ -13,8 +18,8 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.systemd-boot.configurationLimit = 20;
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernelParams = ["noapic"];
-  boot.initrd.kernelModules = ["loop"];
+  boot.kernelParams = [ "noapic" ];
+  boot.initrd.kernelModules = [ "loop" ];
   boot.tmp.cleanOnBoot = true;
   nix.gc = {
     automatic = true;
@@ -33,7 +38,7 @@
 
   hardware.bluetooth.enable = true;
 
-  networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
+  networking.networkmanager.enable = true; # Easiest to use and most distros use this by default.
 
   # Set your time zone.
   time.timeZone = "America/Los_Angeles";

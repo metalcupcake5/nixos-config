@@ -1,9 +1,9 @@
 { ... }:
 
 {
-    imports = [
-        ./mako.nix
-        ./arrpc.nix
-        ./services.nix
-    ];
+  imports = [
+    ./mako.nix
+    ./arrpc.nix
+    ./services.nix
+  ];
 }

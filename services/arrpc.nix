@@ -1,5 +1,5 @@
 { ... }:
 
 {
-    home-manager.users.metal.services.arrpc.enable = true;
+  home-manager.users.metal.services.arrpc.enable = true;
 }

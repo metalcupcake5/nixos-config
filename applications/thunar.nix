@@ -1,8 +1,8 @@
 { pkgs, ... }:
 
 {
-    programs.thunar = {
-        enable = true;
-        plugins = [];
-    };
+  programs.thunar = {
+    enable = true;
+    plugins = [ ];
+  };
 }

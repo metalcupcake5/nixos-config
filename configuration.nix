@@ -2,26 +2,32 @@
 # your system. Help is available in the configuration.nix(5) man page, on
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./users.nix
-      ./system.nix
-      ./applications
-      ./services
-      # ./packages.nix
-      #./samba-mount.nix
-    ];
+  imports = [
+    # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+    ./users.nix
+    ./system.nix
+    ./applications
+    ./services
+    # ./packages.nix
+    #./samba-mount.nix
+  ];
 
   nix.optimise.automatic = true;
 
   nix.settings.experimental-features = [
-  	"nix-command" "flakes"
+    "nix-command"
+    "flakes"
   ];
-  
+
   nixpkgs.config.allowUnfree = true;
 
   # This option defines the first version of NixOS you have installed on this particular machine,
@@ -43,4 +49,3 @@
   # For more information, see `man configuration.nix` or https://nixos.org/manual/nixos/stable/options#opt-system.stateVersion .
   system.stateVersion = "25.05"; # Did you read the comment?
 }
-

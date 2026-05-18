@@ -1,8 +1,8 @@
 { ... }:
 
 {
-    programs.sway = {
-        enable = true;
-        extraOptions = [ "--unsupported-gpu" ];
-    };
+  programs.sway = {
+    enable = true;
+    extraOptions = [ "--unsupported-gpu" ];
+  };
 }
