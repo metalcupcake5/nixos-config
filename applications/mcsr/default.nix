@@ -11,9 +11,5 @@ in
 
     environment.systemPackages = [
         mcsrPkgs.ninjabrain-bot
-
-        (pkgs.prismlauncher.override {
-            jdks = [ mcsrPkgs.graalvm-21 ];
-        })
     ];
 }

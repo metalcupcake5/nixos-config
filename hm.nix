@@ -20,7 +20,6 @@
             wl-clipboard
             # mako # notification daemon
             rofi # convert to flake later
-            prismlauncher # configure
             pavucontrol
             yazi #configure
             tldr
@@ -46,7 +45,6 @@
             waybar
             typescript
             glfw3-minecraft
-            jdk
             qbittorrent
             # davinci-resolve
             musescore

@@ -14,6 +14,7 @@
         ./hyfetch.nix
         ./satty.nix
         ./chromium.nix
+        ./prism-launcher.nix
         ./mcsr
         ./programs.nix
     ];
