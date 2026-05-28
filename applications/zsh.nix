@@ -45,6 +45,10 @@
         initContent = ''
           eval "$(fzf --zsh)"
         '';
+
+        setOptions = [
+            "NO_BEEP"
+        ];
       };
     };
   };
