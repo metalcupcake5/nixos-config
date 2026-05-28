@@ -57,6 +57,7 @@
           obs-studio-plugins.wlrobs
           kdePackages.kdenlive
           xeyes
+          slack
         ];
       };
     };
