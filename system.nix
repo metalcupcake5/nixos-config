@@ -19,7 +19,10 @@
   boot.loader.systemd-boot.configurationLimit = 20;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.kernelParams = [ "noapic" ];
-  boot.initrd.kernelModules = [ "loop" ];
+  boot.initrd.kernelModules = [
+    "loop"
+    "uinput" # open tablet driver
+  ];
   boot.tmp.cleanOnBoot = true;
   nix.gc = {
     automatic = true;
@@ -37,6 +40,9 @@
   };
 
   hardware.bluetooth.enable = true;
+
+  hardware.opentabletdriver.enable = true;
+  hardware.uinput.enable = true;
 
   networking.networkmanager.enable = true; # Easiest to use and most distros use this by default.
 
