@@ -7,6 +7,7 @@ in
   home-manager.users.metal.programs.prismlauncher = {
     enable = true;
     package = pkgs.prismlauncher.override {
+      additionalLibs = [ pkgs.wayland ];
       jdks = [
         pkgs.jdk8
         pkgs.jdk17
