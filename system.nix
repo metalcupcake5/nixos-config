@@ -8,12 +8,6 @@
 {
   networking.hostName = "microwave"; # Define your hostname.
 
-  system.autoUpgrade = {
-    enable = true;
-    allowReboot = false;
-    dates = "weekly";
-  };
-
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.systemd-boot.configurationLimit = 20;
