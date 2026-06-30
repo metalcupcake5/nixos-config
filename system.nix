@@ -83,7 +83,7 @@
 
   environment.variables = {
     TERM = "xterm-kitty";
-    BROWSER = "qutebrowser";
+    BROWSER = "firefox";
   };
   environment.shellAliases = {
     nv = "nvim";
