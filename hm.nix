@@ -58,6 +58,7 @@
           kdePackages.kdenlive
           xeyes
           slack
+          kdePackages.filelight
         ];
       };
     };
