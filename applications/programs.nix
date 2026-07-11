@@ -33,6 +33,17 @@
   #   ];
   # };
 
+  programs.nix-ld = {
+    enable = true;
+    libraries = with pkgs; [
+        glib
+        nspr
+        nss
+        libxcb
+        dbus
+    ];
+  };
+
   home-manager.users.metal.programs = {
     feh.enable = true;
     mpv.enable = true;
