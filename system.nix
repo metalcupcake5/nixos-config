@@ -78,6 +78,7 @@
   environment.variables = {
     TERM = "xterm-kitty";
     BROWSER = "firefox";
+    SSL_CERT_FILE = "/etc/ssl/certs/ca-bundle.crt";
   };
   environment.shellAliases = {
     nv = "nvim";
