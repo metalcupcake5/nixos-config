@@ -85,4 +85,6 @@
 
   users.defaultUserShell = pkgs.zsh;
 
+  virtualisation.docker.enable = true;
+
 }
