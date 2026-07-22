@@ -21,7 +21,6 @@
           # mako # notification daemon
           rofi # convert to flake later
           pavucontrol
-          yazi # configure
           tldr
           killall
           spotify

@@ -17,5 +17,6 @@
     ./prism-launcher.nix
     ./mcsr
     ./programs.nix
+    ./yazi.nix
   ];
 }
