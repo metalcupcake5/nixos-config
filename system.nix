@@ -20,8 +20,8 @@
   boot.tmp.cleanOnBoot = true;
   nix.gc = {
     automatic = true;
-    dates = "weekly";
-    options = "--delete-older-than 20d";
+    dates = "daily";
+    options = "--delete-older-than 5d";
   };
 
   hardware.graphics = {
