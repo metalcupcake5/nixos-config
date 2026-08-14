@@ -7,7 +7,6 @@
     ./kitty.nix
     ./obs-studio.nix
     ./thunar.nix
-    ./regreet.nix
     ./vesktop.nix
     ./vscode.nix
     ./obsidian.nix
