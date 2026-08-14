@@ -50,7 +50,10 @@
     htop.enable = true;
     uv.enable = true;
     qalculate.enable = true;
-    discord.enable = true;
+    discord = {
+        enable = true;
+        package = pkgs.discord-canary;
+    };
     yt-dlp.enable = true;
     nix-index.enable = true;
     jq.enable = true;
