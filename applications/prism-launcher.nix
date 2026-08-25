@@ -8,6 +8,7 @@ in
     enable = true;
     package = pkgs.prismlauncher.override {
       additionalLibs = [ pkgs.wayland ];
+      additionalPrograms = [ pkgs.zenity ]; # gtnh close dialogue dependency
       jdks = [
         pkgs.jdk8
         pkgs.jdk17
