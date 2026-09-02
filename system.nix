@@ -42,7 +42,8 @@
   networking.networkmanager.enable = true; # Easiest to use and most distros use this by default.
 
   # Set your time zone.
-  time.timeZone = "America/Los_Angeles";
+  # time.timeZone = "America/Los_Angeles";
+  time.timeZone = "America/New_York";
 
   security.polkit.enable = true;
 
